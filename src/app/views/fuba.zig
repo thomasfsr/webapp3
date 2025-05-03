@@ -38,7 +38,6 @@ pub fn delete(id: []const u8, request: *jetzig.Request) !jetzig.View {
     return request.render(.ok);
 }
 
-
 test "index" {
     var app = try jetzig.testing.app(std.testing.allocator, @import("routes"));
     defer app.deinit();
