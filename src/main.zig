@@ -7,7 +7,6 @@ const zmd = @import("zmd");
 pub const routes = @import("routes");
 pub const static = @import("static");
 
-// Override default settings in `jetzig.config` here:
 pub const jetzig_options = struct {
     /// Middleware chain. Add any custom middleware here, or use middleware provided in
     /// `jetzig.middleware` (e.g. `jetzig.middleware.HtmxMiddleware`).
